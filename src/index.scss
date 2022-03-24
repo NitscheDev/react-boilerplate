@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+//fonts
+$lato: 'Lato', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $lato;
+    color: rgb(31, 31, 36);
+
+    a {
+        text-decoration: none;
+        color: currentColor;
+    }
+}
